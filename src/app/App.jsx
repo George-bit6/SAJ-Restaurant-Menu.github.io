@@ -1,4 +1,4 @@
-import "../styles/index.css"
+import "../styles/index.css";
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 
@@ -9,22 +9,34 @@ const menuCategories = [
     number: "01",
     items: [
       {
-        name: "Chicken Taouk",
-        arabic: "شيش طاووق",
-        price: "$4.00",
+        name: "Chicken Liver",
+        arabic: "سودة دجاج",
+        price: "$5.00",
         description:
           "Marinated chicken breast chunks grilled to perfection over charcoal, rolled with our signature garlic toum and pickles.",
         featured: true,
         image:
           "https://lh3.googleusercontent.com/aida-public/AB6AXuDtglr4tIv3OFQrtTZB4R3kirVcQ2EMHU18RMA30QmK1UWQ8LXHCzQPR0EbX7uiwbQ46ZcMPchMMMag2IyxUBCx7CL6n8R-KFcyoMvrUSsvkSLgEjvAJXdUs4PlbNwrCnrFUudqYaiiLqj-Wnqi0umCGI9qHPD1nXLQBNCwOV9wjHMm4IZ_9MwXOlofUMg-xc29pMq1yh6XIXRkIivLPzmoLTnTjZp9cGJQu18jOy2wAy-POOALiO2Vv478vsB2wXVUHdBB_JdBM3nC",
       },
-      { name: "Chicken Shawarma", arabic: "شاورما دجاج", price: "$3.50" },
-      { name: "Chicken Liver", arabic: "سودة دجاج", price: "$3.00" },
-      { name: "Spicy Chicken", arabic: "دجاج حار", price: "$3.75" },
+      { name: "Chicken", arabic: "دجاج", price: "$5.00" },
+      { name: "Fajita", arabic: "فاهيتا", price: "$5.50" },
+      { name: "Crispy Chicken", arabic: "دجاج كريسبي", price: "$5.50" },
+      { name: "Grilled Taouk", arabic: "طاووق مشوي", price: "$5.00" },
+      { name: "Baked Taouk", arabic: "طاووق بالفرن", price: "$5.00" },
+      { name: "Roast Beef", arabic: "روستو بيف", price: "$5.50" },
+      { name: "Lebanese Burger", arabic: "برغر لبناني", price: "$5.00" },
+      { name: "Cheese Burger", arabic: "تشيز برغر", price: "$5.50" },
+      { name: "Chicken Burger", arabic: "برغر دجاج", price: "$5.00" },
+      { name: "Kafta", arabic: "كفتة", price: "$5.00" },
+      { name: "Sujuk", arabic: "سجق", price: "$5.00" },
+      { name: "Makanik", arabic: "مقانق", price: "$5.00" },
+      { name: "Cheese & Ham", arabic: "جبنة و هام", price: "$5.00" },
+      { name: "Spine Meat", arabic: "سناسل", price: "$7.00" },
+      { name: "Potato", arabic: "بطاطا", price: "$3.00" },
     ],
   },
   {
-    id: "rotisserie",
+    id: "plates",
     label: "ROTISSERIE & PLATES",
     number: "02",
     items: [
